@@ -1,0 +1,12 @@
+D:\Sai\Projects\InmarTest\DataAccessEntityFramework\bin\Release\DataAccessEntityFramework.dll.config
+D:\Sai\Projects\InmarTest\DataAccessEntityFramework\bin\Release\DataAccessEntityFramework.dll
+D:\Sai\Projects\InmarTest\DataAccessEntityFramework\bin\Release\DataAccessEntityFramework.pdb
+D:\Sai\Projects\InmarTest\DataAccessEntityFramework\bin\Release\EntityFramework.dll
+D:\Sai\Projects\InmarTest\DataAccessEntityFramework\bin\Release\EntityFramework.SqlServer.dll
+D:\Sai\Projects\InmarTest\DataAccessEntityFramework\bin\Release\EntityFramework.xml
+D:\Sai\Projects\InmarTest\DataAccessEntityFramework\bin\Release\EntityFramework.SqlServer.xml
+D:\Sai\Projects\InmarTest\DataAccessEntityFramework\obj\Release\DataAccessEntityFramework.csprojAssemblyReference.cache
+D:\Sai\Projects\InmarTest\DataAccessEntityFramework\obj\Release\DataAccessEntityFramework.csproj.CoreCompileInputs.cache
+D:\Sai\Projects\InmarTest\DataAccessEntityFramework\obj\Release\DataAccessEntityFramework.csproj.CopyComplete
+D:\Sai\Projects\InmarTest\DataAccessEntityFramework\obj\Release\DataAccessEntityFramework.dll
+D:\Sai\Projects\InmarTest\DataAccessEntityFramework\obj\Release\DataAccessEntityFramework.pdb

@@ -1,0 +1,62 @@
+﻿@model BusinessObjects.User.User
+
+@{
+    ViewBag.Title = "Login";
+}
+
+<br />
+<style>
+    .panel > .panel-heading {
+        background-image: none;
+        background-color: #000;
+        color: white;
+    }
+</style>
+
+@if (TempData["ErrorMsg"] != null)
+    {
+        <p class='alert alert-danger'>
+            @TempData["ErrorMsg"].ToString()
+        </p>
+    }
+
+@using (Html.BeginForm("Login", "Home", FormMethod.Post))
+{
+    <fieldset>
+
+        @Html.AntiForgeryToken()
+        @Html.ValidationSummary(true)
+        @if (@ViewBag.Message != null)
+        {
+            <div style="border: 1px solid red">
+                @ViewBag.Message
+            </div>
+        }
+
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Please Sign In</h3>
+                    </div>
+                    <div class="panel-body padding-20">
+                        <div class="form-group">
+                            @Html.LabelFor(m => m.UserName, new { @class = "control-label" })
+                            @Html.ValidationMessageFor(m => m.UserName)
+                            @Html.TextBoxFor(m => m.UserName, new { @class = "form-control", tabindex = 1 })
+                        </div>
+                        <div class="form-group">
+                            @Html.LabelFor(m => m.Password, new { @class = "control-label" })
+                            @Html.ValidationMessageFor(m => m.Password)
+                            @Html.PasswordFor(m => m.Password, new { @class = "form-control", tabindex = 2 })
+                        </div>
+
+                        <div class="form-group ">
+                            <input type="submit" value="Sign in" class="btn btn-success" tabindex=3 />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </fieldset>
+}  

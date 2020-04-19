@@ -1,0 +1,9 @@
+D:\Sai\Projects\InmarTest\DataAccess\bin\Debug\DataAccess.dll
+D:\Sai\Projects\InmarTest\DataAccess\bin\Debug\DataAccess.pdb
+D:\Sai\Projects\InmarTest\DataAccess\bin\Debug\log4net.dll
+D:\Sai\Projects\InmarTest\DataAccess\bin\Debug\log4net.xml
+D:\Sai\Projects\InmarTest\DataAccess\obj\Debug\DataAccess.csprojAssemblyReference.cache
+D:\Sai\Projects\InmarTest\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
+D:\Sai\Projects\InmarTest\DataAccess\obj\Debug\DataAccess.csproj.CopyComplete
+D:\Sai\Projects\InmarTest\DataAccess\obj\Debug\DataAccess.dll
+D:\Sai\Projects\InmarTest\DataAccess\obj\Debug\DataAccess.pdb

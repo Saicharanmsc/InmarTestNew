@@ -1,0 +1,11 @@
+D:\Sai\Projects\InmarTest\BusinessObjects\bin\Debug\BusinessObjects.dll
+D:\Sai\Projects\InmarTest\BusinessObjects\bin\Debug\BusinessObjects.pdb
+D:\Sai\Projects\InmarTest\BusinessObjects\bin\Debug\DataAccess.dll
+D:\Sai\Projects\InmarTest\BusinessObjects\bin\Debug\log4net.dll
+D:\Sai\Projects\InmarTest\BusinessObjects\bin\Debug\DataAccess.pdb
+D:\Sai\Projects\InmarTest\BusinessObjects\bin\Debug\log4net.xml
+D:\Sai\Projects\InmarTest\BusinessObjects\obj\Debug\BusinessObjects.csprojAssemblyReference.cache
+D:\Sai\Projects\InmarTest\BusinessObjects\obj\Debug\BusinessObjects.csproj.CoreCompileInputs.cache
+D:\Sai\Projects\InmarTest\BusinessObjects\obj\Debug\BusinessObjects.csproj.CopyComplete
+D:\Sai\Projects\InmarTest\BusinessObjects\obj\Debug\BusinessObjects.dll
+D:\Sai\Projects\InmarTest\BusinessObjects\obj\Debug\BusinessObjects.pdb

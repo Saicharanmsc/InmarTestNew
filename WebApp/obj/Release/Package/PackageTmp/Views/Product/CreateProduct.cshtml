@@ -1,0 +1,68 @@
+﻿@model WebApp.Models.ProductModel
+
+@{
+    ViewBag.Title = "CreateProduct";
+}
+
+<h2>Create Product</h2>
+
+@using (Html.BeginForm())
+{
+    <hr />
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+    if (TempData["ErrorMsg"] != null)
+    {
+        <p class='alert alert-danger'>
+            @TempData["ErrorMsg"].ToString()
+        </p>
+    }
+
+    <div class="row">
+        <div class="form-group col-md-3">
+            @Html.LabelFor(m => m.LocationName, new { @class = "control-label" }) <span class="req">*</span>
+            @Html.ValidationMessageFor(m => m.Location)
+            @Html.DropDownListFor(m => m.Location, Model.LocationList, "Select a Location", new { @class = "form-control", @tabindex = "1" })
+        </div>
+        <div class="form-group col-md-3">
+            @Html.LabelFor(m => m.DepartmentName, new { @class = "control-label" }) <span class="req">*</span>
+            @Html.ValidationMessageFor(m => m.Department)
+            @Html.DropDownListFor(m => m.Department, Model.DepartmentList, "Select a Department", new { @class = "form-control", @tabindex = "2" })
+        </div>
+        <div class="form-group col-md-3">
+            @Html.LabelFor(m => m.CategoryName, new { @class = "control-label" }) <span class="req">*</span>
+            @Html.ValidationMessageFor(m => m.Category)
+            @Html.DropDownListFor(m => m.Category, Model.CategoryList, "Select a Category", new { @class = "form-control", @tabindex = "3" })
+        </div>
+        <div class="form-group col-md-3">
+            @Html.LabelFor(m => m.SubCategoryName, new { @class = "control-label" }) <span class="req">*</span>
+            @Html.ValidationMessageFor(m => m.SubCategory)
+            @Html.DropDownListFor(m => m.SubCategory, Model.SubCategoryList, "Select a SubCategory", new { @class = "form-control", @tabindex = "4" })
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="form-group col-md-3">
+            @Html.LabelFor(m => m.SKU, new { @class = "control-label" }) <span class="req">*</span>
+            @Html.ValidationMessageFor(m => m.SKU)
+            @Html.TextBoxFor(m => m.SKU, new { @class = "form-control", @tabindex = "5" })
+        </div>
+
+        <div class="form-group col-md-3">
+            @Html.LabelFor(m => m.Name, new { @class = "control-label" }) <span class="req">*</span>
+            @Html.ValidationMessageFor(m => m.Name)
+            @Html.TextBoxFor(m => m.Name, new { @class = "form-control", @tabindex = "6" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-2">
+            <input type="submit" value="Create" class="btn btn-default" tabindex="7" />
+        </div>
+    </div>
+
+}
+
+<div>
+    @Html.ActionLink("Back to List", "GetAllProducts")
+</div>
